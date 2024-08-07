@@ -30,7 +30,7 @@ PUP Supermarket, established in 2018, operates in the retail sector, focusing on
 
 <div style="text-align: center;">
   <img src="images/pup-logo.png" alt="PUP Logo"/>
-  <p><i>PUP logo (Source: Author's group)</i></p>
+  <p><i>PUP Logo (Source: Author group)</i></p>
 </div>
 
 *! Just for fun: The text on the logo means Buy 1, Get 1 Free, Pay for 2*
@@ -130,10 +130,29 @@ After preprocessing the data, I imported it into PowerBI and linked the datasets
 
 <div style="text-align: center;">
   <img src="images/data-model.png" alt="Data Model"/>
-  <p><i>Data Model (Source: Author's group)</i></p>
+  <p><i>Data Model (Source: Author group)</i></p>
 </div>
+
+
 
 ## Data Analysis
 
+Each table depicted in the image corresponds to a dedicated dashboard. In this project, I contributed to the development of the overview dashboard for the fact table (`Sales`), while a teammate handled its analysis. Additionally, I was responsible for creating and analyzing the monthly dashboard for the `Month` table, providing recommendations based on the analysis. Let’s delve into my contributions.
+
+### Overview Dashboard 
+
+<div style="text-align: center;">
+  <img src="images/overview-dashboard.png" alt="Overview Dashboard"/>
+  <p><i>Overview Dashboard (Source: Author group)</i></p>
+</div>
+
+The dashboard's content, including the number and types of charts and the data each chart displays, was developed with my assistance. However, the formatting and finalization of the dashboard were completed by my teammate. The dashboard highlights key business metrics (such as sales, revenue, and ratings) along with relevant dimensions (including product line, gender, and customer type).
+
+### Month Dashboard
+
+<div style="text-align: center;">
+  <img src="images/month-dashboard.png" alt="Month Dashboard"/>
+  <p><i>Month Dashboard (Source: Author group)</i></p>
+</div>
 
 
