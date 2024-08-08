@@ -14,6 +14,8 @@ The goal of this project was to analyze the sales data of PUP supermarkets to id
 
 ## Key Contributions
 
+My key contributions to the project are as follows:
+
 - **Data Preprocessing**:
 Consolidated and cleaned the sales data to ensure accuracy and consistency.
 Transformed the data into a format suitable for in-depth analysis.
@@ -33,7 +35,7 @@ PUP Supermarket, established in 2018, operates in the retail sector, focusing on
   <p><i>PUP Logo (Source: Author group)</i></p>
 </div>
 
-*! Just for fun: The text on the logo means Buy 1, Get 1 Free, Pay for 2*
+> ! Just for fun: The text on the logo means "Buy 1, Get 1 Free, Pay for 2".
 
 ## Data Source
 The data from PUP Supermarket is based on the **Supermarket Sales** dataset from Kaggle, which can be accessed [here](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales). This dataset includes sales records of a supermarket across three branches, providing insights into various aspects such as customer demographics, purchase behavior, and sales trends over time.
@@ -80,39 +82,39 @@ Along with generating new data, categorical encoding was performed for columns c
 
 - **City**
   | Original Data | Encoded Data |
-  |---------------|--------------|
+  | ------------- | ------------ |
   | Mandalay      | MAN          |
   | Naypyitaw     | NAY          |
   | Yangon        | YAN          |
 
 - **Customer Type**
   | Original Data | Encoded Data |
-  |---------------|--------------|
+  | ------------- | ------------ |
   | Member        | MEM          |
   | Normal        | NOR          |
 
 - **Gender**
   | Original Data | Encoded Data |
-  |---------------|--------------|
+  | ------------- | ------------ |
   | Female        | F            |
   | Male          | M            |
 
 - **Product Line**
-  | Original Data         | Encoded Data |
-  |-----------------------|--------------|
-  | Health and Beauty     | HB           |
-  | Electronic Accessories | EA          |
-  | Home and Lifestyle    | HL           |
-  | Sports and Travel     | ST           |
-  | Fashion Accessories   | FA           |
-  | Food and Beverages    | FB           |
+  | Original Data          | Encoded Data |
+  | ---------------------- | ------------ |
+  | Health and Beauty      | HB           |
+  | Electronic Accessories | EA           |
+  | Home and Lifestyle     | HL           |
+  | Sports and Travel      | ST           |
+  | Fashion Accessories    | FA           |
+  | Food and Beverages     | FB           |
 
 - **Date and Time**
   Date and Time were encoded in a specific format due to their varied data ranges: “yyyymmddhhmm”. For example, a `Date` of “2019/05/01” and `Time` of “13:08” would be encoded as “201905011308”.
 
 - **Payment**
   | Original Data | Encoded Data |
-  |---------------|--------------|
+  | ------------- | ------------ |
   | Cash          | CA           |
   | Credit Card   | CR           |
   | E-wallet      | EW           |
@@ -122,7 +124,7 @@ Along with generating new data, categorical encoding was performed for columns c
 
 For `COGS` (Cost of Goods Sold), it was found that the data did not reflect its intended meaning. The `COGS` data was essentially the result of multiplying `Unit Price` by `Quantity`. Since `Unit Price` represents the selling price, not the cost of producing the product, `COGS` was removed.
 
-According to Investopedia, Gross Margin = Net Sales − COGS (Bloomenthal, n.d.). Since `COGS` was removed due to incorrect data representation, `Gross Margin` was also removed. Furthermore, the `Gross Margin` column contained only a single value across 1,000 rows, indicating potential unreliability. Thus, the `Gross Margin` column was removed to ensure data quality for analysis.
+According to Investopedia, Gross Margin = Net Sales − COGS. Since `COGS` was removed due to incorrect data representation, `Gross Margin` was also removed. Furthermore, the `Gross Margin` column contained only a single value across 1,000 rows, indicating potential unreliability. Thus, the `Gross Margin` column was removed to ensure data quality for analysis.
 
 ## Data Model
 
@@ -163,7 +165,9 @@ Additionally, the dashboard features a row of six cards displaying key informati
 
 Now, we'll explore each chart to gain insights into the monthly sales of the PUP supermarket chain in 2019. 
 
-#### Pre-Tax Revenue Monthly Trend
+#### Analyzing Charts in The Month Dashboard
+
+##### Pre-Tax Revenue Monthly Trend
 
 The first chart in the dashboard shows the total pre-tax income of PUP for each month.
 
@@ -174,7 +178,7 @@ The first chart in the dashboard shows the total pre-tax income of PUP for each 
 
 The chart clearly shows that PUP's pre-tax revenue was highest during the first three months of 2019. From April onward, pre-tax revenue remained relatively consistent, though there was a significant drop between March and April. March was among the top three revenue months, but April saw the lowest revenue of the year, with a decline of over tenfold. This sudden drop is concerning and suggests a major factor behind the revenue decrease. Overall, PUP's pre-tax revenue was unstable, with significant fluctuations in the first quarter and no recovery in subsequent months. The chart indicates a surge in customer demand in the first three months, followed by a sharp decline. PUP should thoroughly investigate both internal (business-related) and external (customer-related) factors behind this decline to develop strategies for the following year, aiming to stabilize revenue across all months and increase annual earnings.
 
-#### Accumulated Post-Tax Revenue by Month
+##### Accumulated Post-Tax Revenue by Month
 
 The prominence of pre-tax revenue in the first three months is also reflected in the cumulative post-tax revenue chart below.
 
@@ -185,7 +189,7 @@ The prominence of pre-tax revenue in the first three months is also reflected in
 
 The cumulative post-tax revenue chart displays the revenue PUP generated each month, added to the revenue from previous months. The height of each column represents the revenue for the corresponding month. The first three months have the tallest and largest columns, reflecting PUP's strong performance during this period, similar to the earlier chart. As the months progress, the columns rise higher, indicating the growing cumulative revenue. The noticeable gaps between January, February, and March highlight the significant revenue during these months. However, from April onward, PUP's monthly revenue drops to around 0.01 million (post-tax). The final "Total" column shows that PUP's total post-tax revenue for 2019 was approximately 0.31 million. This chart further emphasizes PUP's inconsistent business performance and fluctuating customer demand over time, underscoring the need for PUP to identify and address the underlying issues in the upcoming year.
 
-#### Quantity Distribution by Month
+##### Quantity Distribution by Month
 
 Revenue and sales volume go hand in hand. An increase in sales volume typically leads to an increase in revenue, and vice versa. The distribution of PUP's sales volume in 2019 is shown in the chart below.
 
@@ -196,18 +200,18 @@ Revenue and sales volume go hand in hand. An increase in sales volume typically 
 
 Similar to the previous two charts, the first three months of the year lead in sales volume. PUP's sales performance appears to be divided into two distinct periods: the first three months, which show strong business performance, and the remaining months, which reflect weaker performance. The variation in performance within each group is not significant, but the difference between the two groups is quite pronounced. Customer shopping demand follows a similar pattern, with high demand in the first three months and a significant drop for the rest of the year.
 
-#### Average Quantity by Month
+##### Average Quantity by Month
 
 Although the total monthly sales in the chart above again confirm the strong performance of the first three months in PUP's 2019 business, the average monthly sales offer a different perspective.
 
 <div style="text-align: center;">
-  <img src="images/average-quantity-by-month.png" alt="2.7.4.	Average Quantity by Month"/>
-  <p><i>2.7.4.	Average Quantity by Month (Source: Author group)</i></p>
+  <img src="images/average-quantity-by-month.png" alt="Average Quantity by Month"/>
+  <p><i>Average Quantity by Month (Source: Author group)</i></p>
 </div>
 
 From the perspective of average monthly sales, the first three months are no longer the top performers. The chart shows that the highest average sales of 6 occurred in 8 months, including January and March—previously the best-performing months. All other months have an average sales of 5, which is only slightly lower than the highest average. This indicates that the number of products sold per order does not significantly impact PUP's business performance, as the quantity per order is similar across months. Instead, the key factor is the number of orders per month. In other words, the difference in PUP’s performance between the first three months and the rest of the year is due to a higher number of orders during the initial three months. This is further demonstrated by the following "Number of Invoices Each Month" chart.
 
-#### Number of Invoices Each Month
+##### Number of Invoices Each Month
 
 <div style="text-align: center;">
   <img src="images/number-of-invoices-each-month.png" alt="Number of Invoices Each Month"/>
@@ -216,12 +220,12 @@ From the perspective of average monthly sales, the first three months are no lon
 
 It is clear that the decline in PUP's business performance from April through the end of the year is due to a decrease in the number of orders. The sales and marketing team at PUP will need to investigate the underlying reasons for this drop and quickly propose solutions to attract more customers and increase order volume, aiming to improve business performance in the following year.
 
-#### Monthly Rating Distribution & Average
+##### Monthly Rating Distribution & Average
 
 With an average rating of 6.97 out of 10 in 2019, PUP's quality is considered quite good. However, the monthly customer rating distribution, as shown in the "Monthly Rating Distribution & Average" chart, may reveal some surprising insights.
 
 <div style="text-align: center;">
-  <img src="images/pre-tax-revenue-monthly-trend.png" alt="Monthly Rating Distribution & Average "/>
+  <img src="images/monthly-rating-distribution-and-average.png" alt="Monthly Rating Distribution & Average "/>
   <p><i>Monthly Rating Distribution & Average (Source: Author group)</i></p>
 </div>
 
@@ -273,14 +277,14 @@ Despite these challenges, using Kaggle data provided several benefits. I gained 
 
 Here are the DAX formulas I wrote for the measures used in my dashboard (Month Dashboard).
 
-#### In Sales table
+#### In The Sales Table
 
 <div style="text-align: center;">
   <img src="images/next-month-revenue-dax.png" alt="DAX for The Next Month Revenue Measure"/>
   <p><i>DAX of Next Month Revenue Measure (Source: Author group)</i></p>
 </div>
 
-#### In Month table
+#### In The Month Table
 
 <div style="text-align: center;">
   <img src="images/selected-month-dax.png" alt="DAX for The Selected Month Measure"/>
