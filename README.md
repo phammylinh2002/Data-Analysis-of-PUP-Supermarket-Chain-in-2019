@@ -155,4 +155,96 @@ The dashboard's content, including the number and types of charts and the data e
   <p><i>Month Dashboard (Source: Author group)</i></p>
 </div>
 
+The "Month" dashboard is a tool for analyzing monthly sales data at PUP Supermarket, offering insights into revenue, sales, and customer ratings. It assists management and the sales team in assessing business performance and developing marketing strategies to enhance both business outcomes and customer experience.
 
+In addition to the five main charts in the center and a menu bar on the left, the dashboard features a full set of filters in the first column, along with the supermarket's logo. These filters allow users to explore and compare data across different dimensions for deeper insights.
+
+Additionally, the dashboard features a row of six cards displaying key information and metrics. Viewers can see the selected month, prior month revenue, current month revenue, next month revenue, average customer rating, and total sales quantity. All revenue figures shown on these cards are post-tax.
+
+Now, we'll explore each chart to gain insights into the monthly sales of the PUP supermarket chain in 2019. 
+
+#### Pre-Tax Revenue Monthly Trend
+
+The first chart in the dashboard shows the total pre-tax income of PUP for each month.
+
+<div style="text-align: center;">
+  <img src="images/pre-tax-revenue-monthly-trend.png" alt="Pre-Tax Revenue Monthly Trend"/>
+  <p><i>Pre-Tax Revenue Monthly Trend (Source: Author group)</i></p>
+</div>
+
+The chart clearly shows that PUP's pre-tax revenue was highest during the first three months of 2019. From April onward, pre-tax revenue remained relatively consistent, though there was a significant drop between March and April. March was among the top three revenue months, but April saw the lowest revenue of the year, with a decline of over tenfold. This sudden drop is concerning and suggests a major factor behind the revenue decrease. Overall, PUP's pre-tax revenue was unstable, with significant fluctuations in the first quarter and no recovery in subsequent months. The chart indicates a surge in customer demand in the first three months, followed by a sharp decline. PUP should thoroughly investigate both internal (business-related) and external (customer-related) factors behind this decline to develop strategies for the following year, aiming to stabilize revenue across all months and increase annual earnings.
+
+#### Accumulated Post-Tax Revenue by Month
+
+The prominence of pre-tax revenue in the first three months is also reflected in the cumulative post-tax revenue chart below.
+
+<div style="text-align: center;">
+  <img src="images/accumulated-post-tax-revenue-by-month.png" alt="Accumulated Post-Tax Revenue by Month"/>
+  <p><i>Accumulated Post-Tax Revenue by Month (Source: Author group)</i></p>
+</div>
+
+The cumulative post-tax revenue chart displays the revenue PUP generated each month, added to the revenue from previous months. The height of each column represents the revenue for the corresponding month. The first three months have the tallest and largest columns, reflecting PUP's strong performance during this period, similar to the earlier chart. As the months progress, the columns rise higher, indicating the growing cumulative revenue. The noticeable gaps between January, February, and March highlight the significant revenue during these months. However, from April onward, PUP's monthly revenue drops to around 0.01 million (post-tax). The final "Total" column shows that PUP's total post-tax revenue for 2019 was approximately 0.31 million. This chart further emphasizes PUP's inconsistent business performance and fluctuating customer demand over time, underscoring the need for PUP to identify and address the underlying issues in the upcoming year.
+
+#### Quantity Distribution by Month
+
+Revenue and sales volume go hand in hand. An increase in sales volume typically leads to an increase in revenue, and vice versa. The distribution of PUP's sales volume in 2019 is shown in the chart below.
+
+<div style="text-align: center;">
+  <img src="images/quantity-distribution-by-month.png" alt="Quantity Distribution by Month"/>
+  <p><i>Quantity Distribution by Month (Source: Author group)</i></p>
+</div>
+
+Similar to the previous two charts, the first three months of the year lead in sales volume. PUP's sales performance appears to be divided into two distinct periods: the first three months, which show strong business performance, and the remaining months, which reflect weaker performance. The variation in performance within each group is not significant, but the difference between the two groups is quite pronounced. Customer shopping demand follows a similar pattern, with high demand in the first three months and a significant drop for the rest of the year.
+
+#### Average Quantity by Month
+
+Although the total monthly sales in the chart above again confirm the strong performance of the first three months in PUP's 2019 business, the average monthly sales offer a different perspective.
+
+<div style="text-align: center;">
+  <img src="images/average-quantity-by-month.png" alt="2.7.4.	Average Quantity by Month"/>
+  <p><i>2.7.4.	Average Quantity by Month (Source: Author group)</i></p>
+</div>
+
+From the perspective of average monthly sales, the first three months are no longer the top performers. The chart shows that the highest average sales of 6 occurred in 8 months, including January and March—previously the best-performing months. All other months have an average sales of 5, which is only slightly lower than the highest average. This indicates that the number of products sold per order does not significantly impact PUP's business performance, as the quantity per order is similar across months. Instead, the key factor is the number of orders per month. In other words, the difference in PUP’s performance between the first three months and the rest of the year is due to a higher number of orders during the initial three months. This is further demonstrated by the following "Number of Invoices Each Month" chart.
+
+#### Number of Invoices Each Month
+
+<div style="text-align: center;">
+  <img src="images/number-of-invoices-each-month.png" alt="Number of Invoices Each Month"/>
+  <p><i>Number of Invoices Each Month (Source: Author group)</i></p>
+</div>
+
+It is clear that the decline in PUP's business performance from April through the end of the year is due to a decrease in the number of orders. The sales and marketing team at PUP will need to investigate the underlying reasons for this drop and quickly propose solutions to attract more customers and increase order volume, aiming to improve business performance in the following year.
+
+#### Monthly Rating Distribution & Average
+
+With an average rating of 6.97 out of 10 in 2019, PUP's quality is considered quite good. However, the monthly customer rating distribution, as shown in the "Monthly Rating Distribution & Average" chart, may reveal some surprising insights.
+
+<div style="text-align: center;">
+  <img src="images/pre-tax-revenue-monthly-trend.png" alt="Monthly Rating Distribution & Average "/>
+  <p><i>Monthly Rating Distribution & Average (Source: Author group)</i></p>
+</div>
+
+Despite the strong business performance in the first three months based on revenue and sales, customer ratings during these months are only average—close to 7 points each month. Surprisingly, April, which had the worst revenue of the year for PUP, had the highest average rating at 7.52. The following months—May through August—also had high ratings, all above 7.0. This suggests that from April to August, PUP may have focused on service quality to improve customer satisfaction rather than just increasing sales. However, this effort was not consistently rewarded, as ratings fell below 7.0 in September, October, and November. Ultimately, PUP managed to improve in December, bringing the average rating for the year close to 7.0.
+
+#### Month Dashboard Insights
+
+From the monthly business performance analysis of PUP, we can observe the following:
+
+- In 2019, January, February, and March were the best-performing months with the highest customer demand, while April through December had poorer performance and lower customer demand.
+- The average number of orders per month was relatively consistent, regardless of whether the business performance was good or poor.
+- The key difference in PUP’s performance between the first three months and the rest of the year is the higher number of orders during the initial three months.
+- The decline in business performance from April onwards was offset by improved service quality, as reflected in customer ratings.
+
+#### Recommendations for Improving Sales
+
+Based on the insights gained, the following recommendations can be considered to improve business performance from April to December:
+
+- **Boost Marketing and Promotions:** Implement special promotions from April to December and increase advertising on digital platforms.
+- **Enhance Service Quality:** Focus on collecting and analyzing customer feedback and provide regular staff training.
+- **Analyze Order Decline:** Investigate the market and survey customers to understand the reasons for the drop in orders.
+- **Increase Customer Engagement:** Strengthen loyalty programs and enhance post-sale customer service.
+
+## Appendix
+
+others' work (insights from the dashboards they worked on)
