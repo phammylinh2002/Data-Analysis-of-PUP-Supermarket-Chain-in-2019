@@ -29,8 +29,7 @@ Transformed the data into a format suitable for in-depth analysis.
 Focused on analyzing monthly sales to uncover trends and customer insights. 
 Developed dashboards in Power BI to visualize key metrics and sales trends.
 - **Recommendations**:
-Proposed strategies to optimize inventory management, pricing, and promotional activities based on the analysis.
-Suggested actionable insights to boost sales and customer engagement.
+Offered actionable recommendations to support management in evaluating performance and refining marketing strategies, aimed at enhancing business outcomes and customer experience.
 
 ## About PUP 
 
