@@ -296,3 +296,7 @@ Here are the DAX formulas I wrote for the measures used in my dashboard (Month D
   <img src="images/selected-month-dax.png" alt="DAX for The Selected Month Measure"/>
   <p><i>DAX of Selected Month Measure (Source: Author group)</i></p>
 </div>
+
+## Copyright Notice
+
+All content in this repository, including but not limited to code, documentation, and other materials, is the intellectual property of the contributing team. Unauthorized copying, reproduction, or use of this content is prohibited. For any inquiries or permissions, please contact the repository owner.
