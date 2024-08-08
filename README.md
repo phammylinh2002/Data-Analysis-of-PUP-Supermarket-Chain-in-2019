@@ -4,6 +4,12 @@
 
 This repository contains only the parts of the project that I personally contributed to, showcasing my skills in data preprocessing, analysis, and data-driven recommendations. Please note that I was actively involved in the entire data analysis process as part of the group, which included reviewing others' work, offering recommendations to enhance the overall quality, and incorporating feedback to complete the project. For a full overview of the project or to see the group work, please contact me directly. Feel free to review my work and reach out if you have any questions or need further information.
 
+You can find the relevant files in the following locations:
+- Original data: [original-data-pup-supermarket-sales.csv](original-data-pup-supermarket-sales.csv)
+- Processed data: [processed-data-pup-supermarket-sales.xlsx](processed-data-pup-supermarket-sales.xlsx)
+- All dashboards of the project (in PDF): [pup-supermarket-dashboards.pdf](pup-supermarket-dashboards.pdf)
+- All dashboards of the project (in PowerBI): [pup-supermarket-dashboards.pbix](pup-supermarket-dashboards.pbix)
+
 ## Technologies Used
 - **Excel**: For data cleaning, transformation, and modeling.
 - **PowerBI**: For creating visual dashboards.
