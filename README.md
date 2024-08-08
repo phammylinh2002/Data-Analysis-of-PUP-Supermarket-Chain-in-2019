@@ -23,11 +23,9 @@ The goal of this project was to analyze the sales data of PUP supermarkets to id
 My key contributions to the project are as follows:
 
 - **Data Preprocessing**:
-Consolidated and cleaned the sales data to ensure accuracy and consistency.
-Transformed the data into a format suitable for in-depth analysis.
+Cleaned, transformed, and modeled the sales data to ensure accuracy and consistency, preparing it for in-depth analysis.
 - **Data Analysis**:
-Focused on analyzing monthly sales to uncover trends and customer insights. 
-Developed dashboards in Power BI to visualize key metrics and sales trends.
+Analyzed monthly sales to uncover trends and customer insights. Developed Power BI dashboards to visualize key metrics and sales trends.
 - **Recommendations**:
 Offered actionable recommendations to support management in evaluating performance and refining marketing strategies, aimed at enhancing business outcomes and customer experience.
 
