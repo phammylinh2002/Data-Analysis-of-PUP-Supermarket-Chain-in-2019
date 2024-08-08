@@ -245,6 +245,44 @@ Based on the insights gained, the following recommendations can be considered to
 - **Analyze Order Decline:** Investigate the market and survey customers to understand the reasons for the drop in orders.
 - **Increase Customer Engagement:** Strengthen loyalty programs and enhance post-sale customer service.
 
+## Key takeaways
+
+Through the data analysis project for PUP supermarket, I gained valuable results and experiences, bridging theoretical knowledge with practical skills essential for my future career in data analysis and business intelligence. Here’s what I gained from the project and the subject it was part of:
+
+- **Data Processing and Analysis**: I learned to handle and analyze large datasets with Excel and Power BI, including data cleaning, transformation, and using analytical functions.
+- **Analytical Techniques**: I applied various analytical techniques in Excel and Power BI, including descriptive analysis, chart creation, and advanced time-based analyses.
+- **Creating Meaningful Insights**: I developed skills in translating data into actionable insights, creating visual reports, and interactive dashboards in Power BI to effectively communicate results.
+- **Teamwork and Project Management**: The project improved my teamwork and project management skills, including sharing and collaborating on Excel files and Power BI reports.
+- **Industry Knowledge Integration**: I recognized the importance of integrating industry knowledge with data analysis, which helped in formulating relevant questions and creating meaningful KPIs.
+- **Understanding Data Analysis Challenges**: The project highlighted the potential and challenges of big data analysis in business, emphasizing the importance of mastering tools like Excel and Power BI, and understanding data security and ethics.
+
+## Challenges and Benefits
+
+During the data analysis report, I and my teammates faced several challenges using data from Kaggle. One of the major difficulties was finding a suitable dataset for analysis, which required significant time and effort. Although Kaggle offers a vast array of diverse data, identifying a dataset that aligns with our analysis goals was not straightforward. We frequently encountered issues with limited and poor-quality data, which significantly hindered deep analysis and deriving valuable insights. Data quality was another concern, as many Kaggle datasets contained unstandardized values, necessitating substantial time and effort for data cleaning before starting the analysis. It was only when we began developing the dashboard that we realized whether the chosen dataset was rich enough and had the necessary measures for in-depth analysis, sometimes leading to a return to data searching and processing, consuming additional time and resources.
+
+Despite these challenges, using Kaggle data provided several benefits. I gained access to real and diverse datasets, enhancing my data handling and analysis skills in a practical environment. This experience also improved my ability to assess data quality and think critically when working with various data sources, especially those with small sizes or inconsistent quality.
+
+## References
+
+1. [Supermarket sales. (n.d.). Kaggle. Retrieved June 12, 2024.](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
+2. [Bellucco, A. (n.d.). Gross Profit Margin: Formula and What It Tells You. Investopedia. Retrieved June 20, 2024.](https://www.investopedia.com/terms/g/gross_profit_margin.asp)
+
 ## Appendix
 
-others' work (insights from the dashboards they worked on)
+### DAX for the measures created
+
+Here are the DAX formulas I wrote for the measures used in my dashboard (Month Dashboard).
+
+#### In Sales table
+
+<div style="text-align: center;">
+  <img src="images/next-month-revenue-dax.png" alt="DAX for The Next Month Revenue Measure"/>
+  <p><i>DAX of Next Month Revenue Measure (Source: Author group)</i></p>
+</div>
+
+#### In Month table
+
+<div style="text-align: center;">
+  <img src="images/selected-month-dax.png" alt="DAX for The Selected Month Measure"/>
+  <p><i>DAX of Selected Month Measure (Source: Author group)</i></p>
+</div>
