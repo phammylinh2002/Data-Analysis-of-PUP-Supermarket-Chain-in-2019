@@ -26,8 +26,8 @@ My key contributions to the project are as follows:
 Consolidated and cleaned the sales data to ensure accuracy and consistency.
 Transformed the data into a format suitable for in-depth analysis.
 - **Data Analysis**:
-Focused on analyzing product lines to determine the best-selling items and customer preferences.
-Developed a dashboard page that visualizes key metrics and trends within the product lines.
+Focused on analyzing monthly sales to uncover trends and customer insights. 
+Developed dashboards in Power BI to visualize key metrics and sales trends.
 - **Recommendations**:
 Proposed strategies to optimize inventory management, pricing, and promotional activities based on the analysis.
 Suggested actionable insights to boost sales and customer engagement.
